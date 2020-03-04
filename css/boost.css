@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_header{
+    background-color:rgb(26, 33, 141);
+    position: relative;
+}
+.colum1{
+    background-color: rgb(26, 33, 141);
+}
+.colum2{
+    background-color: rgb(26, 33, 141);
+}
+.phone{
+    color: #fff;
+}
+.rect{
+    width: 5%;
+    height: 30px;
+    background-color: rgb(58, 142, 251);
+    transform: skew(-29deg);
+}
+.rect p{
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+}
+.rect2{
+    width: 19%;
+    height: 30px;
+    background-color: rgb(255, 19, 19);
+    transform: skew(-26deg);
+    margin-left:40%;
+    margin-top: -20%;
+    margin-bottom: 10%;
+}
+.rect2 p{
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 600;
+}
+.navo{
+    height: 4rem;
+}
+.navet{
+    margin: auto;
+}
+#neg a{
+    color: black;
+}
+.men li a:before{
+    content: "";
+    width: 40px;
+    position: absolute;
+    border-bottom: 7px solid red;
+    bottom: 0;
+    right: 530px;
+    transition: 0.2s all;
+
+}
+.men li a:hover:before{
+    right: 33%;
+}
+.targeta{
+    background-color: rgba(235, 235, 235, 0.911);
+    border: 0;
+}
+
+#carousel{
+    position: relative;
+
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#carousel h1{
+    color: black;
+    font-size: 9vw;
+    line-height: 110px;
+    margin-top: 2%;
+}
+#carousel .overlay .containerr,
+#carousel .overlay .row{
+    height: 100%;
+
+}
+    
+
+.slmain a{
+    color: red;
+    display: inline-block
+}
+.sl{
+    margin-left: -60%;
+}
+.boxes{
+    border: none;
+    margin: auto;
+}
+.pr{
+    background-color: #fff;
+}
+.fat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.bas{
+    width: 100%;
+    height: 25rem;
+}
+.bas img{
+    margin-right: 54%;
+}
+.boxes{
+    background-color: black;
+}
+.d{
+    background-color: black;
+}
+.tbl{
+    border: 2px solid black;
+    width: 65%;
+    position: relative;
+    left: 408px;
+    bottom: 400px;
+}
+.hd{
+    background-color: #fff;
+    height: 30em;
+}
+.cb{
+    text-align: center;
+    padding: 25px;
+}
+.blue{
+    background-color: rgb(22, 96, 156);
+    padding: 25px;
+}
+.fas fa-phone{
+    color: blueviolet;
+    
+}
+.fm{
+    margin-left: 16%;
+    padding: 1%;
+}
+.textf p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 1%;
+}
+.foot{
+    background-color: rgb(63, 63, 224);
+    color: #fff;
+    margin-bottom: 0;
+}
+.foot p{
+    margin: 0;
+}
+.foot a{
+    color: #fff;
+}
+.vl {
+  border-left: 0px solid rgb(255, 255, 255);
+}
