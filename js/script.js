@@ -12,9 +12,9 @@ window.onload = function() {
         //obtenemos los segundos invocando el metodo getSeconds
         var secs = d.getSeconds();
         //concatenamos la hora, minutos y segundos
-        //obtenemos el elemento con id hour y le insertamos la concatenacion
-        document.getElementById("hour").innerHTML = hours+":"+mins+":"+secs;
-       
+        //obtenemos el elemento con id hour y le insertamos la concatenacion 
+        document.getElementById("hour").innerHTML = hours + ":" + mins + ":" + secs;
+        document.getElementById("hours").innerHTML = hours + ":" + mins + ":" + secs;
     };
     //invocamos la funcion printTime cada 1000 milisegundos == 1 segundo
     setInterval(printTime, 1000);
@@ -32,7 +32,9 @@ window.onload = function() {
         que está en el arreglo months, después se concatena el año papu.
         */
         document.getElementById("date").innerHTML = days[d.getDay()] + ", " + d.getDate() +" of "+
-        months[d.getMonth()] + " - " + d.getFullYear();
+            months[d.getMonth()] + " - " + d.getFullYear();
+        document.getElementById("dates").innerHTML = days[d.getDay()] + ", " + d.getDate() + " of " +
+            months[d.getMonth()] + " - " + d.getFullYear();
     }
     //invocamos la funcion meslyrics cada 1000 milisegundos == 1 segundo
     setInterval(meslyrics, 1000);

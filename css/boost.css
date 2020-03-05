@@ -21,6 +21,7 @@
     height: 30px;
     background-color: rgb(58, 142, 251);
     transform: skew(-29deg);
+    margin-left: 2rem;
 }
 .rect p{
     color: #fff;
@@ -115,6 +116,14 @@
     justify-content: center;
     text-align: center;
 }
+.fat2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 6rem;
+}
 .bas{
     width: 100%;
     height: 25rem;
@@ -142,6 +151,11 @@
 .cb{
     text-align: center;
     padding: 25px;
+}
+.coms img{
+    width:100%;
+    background-color: #fff;
+
 }
 .blue{
     background-color: rgb(22, 96, 156);
@@ -173,5 +187,5 @@
     color: #fff;
 }
 .vl {
-  border-left: 0px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
 }

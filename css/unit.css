@@ -7,7 +7,7 @@
 }
 body{
     overflow : hidden; overflow-y : scroll; 
-overflow : -moz-scrollbars-vertica}
+overflow : -moz-scrollbars-vertical
 }
 .principal{
     margin-bottom: 0;
@@ -84,6 +84,9 @@ overflow : -moz-scrollbars-vertica}
     font-size: 2rem;
     font-family: sans-serif;
 }
+.tl h2{
+    margin-right: 15rem;
+}
 
 .text p{
     position: relative;
@@ -124,14 +127,18 @@ overflow : -moz-scrollbars-vertica}
     right: 0;
 }
 .recorte-azul{
-    width: 44%;
-    height: 512px;
-    position: absolute;
-    left: -122px;
-    z-index: 1;
+    width: 100%;
+    height: 100rem;
+    position: relative;
+    right: 13rem;
     background-color: rgb(62, 62, 241);
     transform: skew(-15deg);
 }
+.recorte-azul img{
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
 .carousel-item{
     background-color:yellow;
 
@@ -195,6 +202,10 @@ overflow : -moz-scrollbars-vertica}
 }
 #circular{
     background-color: #ecf0f1;
+}
+#circular2{
+    background-color: #f8f5f5;
+    margin-top: -1rem;
 }
 .texting p{
     width: 100%;
